@@ -1,0 +1,7 @@
+server/node_modules
+server/.env
+server/postman_collection.json
+
+client/node_modules
+client/dist
+client/.env
