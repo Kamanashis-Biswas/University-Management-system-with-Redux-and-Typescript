@@ -15,7 +15,17 @@ const app: Application = express();
 app.use(express.json());
 app.use(cookieParser());
 
-app.use(cors({ origin: ['http://localhost:5173'], credentials: true }));
+// ...existing code...
+app.use(
+  cors({
+    origin: [
+      'http://localhost:5173',
+      'https://university-management-e94b44.netlify.app',
+    ],
+    credentials: true,
+  }),
+);
+// ...existing code...
 
 // application routes
 app.use('/api/v1', router);
