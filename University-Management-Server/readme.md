@@ -19,3 +19,11 @@ Description: This is an updated diagram illustrates the relationships among User
 Description: This is a postman collection of all the API endpoints.Download this , and import it in your postman if you needed.
 
 ---
+
+### Test Login Credentials
+
+Use these test accounts for quick login during development:
+
+- Admin: id: A-0001, password: admin1234
+- Faculty: id: F-0001, password: faculty1234
+- Student: id: 2025030001, password: student1234
